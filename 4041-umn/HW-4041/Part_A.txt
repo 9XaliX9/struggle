@@ -1,0 +1,12 @@
+[96m
+{------------------------------
+Sorted high to low [9.9, 6.9, 5.7, 5.4, 3.2, 1.1]
+
+
+Sorted alphabetically A-Z:  ['bmw', 'chevy', 'corvette', 'mercedes', 'tesla']
+
+
+Sorted ints by second digits low to high: [12, 17, 36, 45, 63, 72, 81, 95]
+
+------------------------------}
+[0m
