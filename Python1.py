@@ -1,5 +1,4 @@
 
-
 """
 #2     variables ✘
 #3     multiple assignment 🔠
@@ -379,7 +378,7 @@ print("------------------------------\n")
 print("\n------------------------------")
 #index operator [] = gives aceess to a sequence;s element (str,list,tuples)   
 
-name = "muhammad ali"
+name = "alex blake"
 #if(name[0].islower()):
 #    name = name.capitalize()
 #print(name)
