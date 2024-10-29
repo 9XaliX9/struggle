@@ -39,22 +39,25 @@
 #     DSA Linear Search
 #     DSA Binary Search
 
+##############################################
 # Linked Lists:
 #     DSA Linked Lists
 #     DSA Linked Lists in Memory
 #     DSA Linked Lists Types
 #     Linked Lists Operations
 
+##############################################
 # Stacks & Queues:
 #     DSA Stacks  
 #     DSA Queues
 
-
+##############################################
 # Hash Tables:
 #     DSA Hash Tables
 #     DSA Hash Sets
 #     DSA Hash Maps
 
+##############################################
 # Trees:
 #     DSA Trees
 #     DSA Binary Trees
@@ -65,6 +68,7 @@
 #     DSA Binary Search Trees
 #     DSA AVL Trees
 
+##############################################
 # Graphs:
 #     DSA Graphs
 #     Graphs Implementation
