@@ -1,0 +1,258 @@
+Git is  version control system.
+
+It is used for:
+Tracking code changes
+Tracking who made changes
+Coding collaboration
+
+Git and GitHub are different things.
+
+#########################################################################################################
+What does Git do?
+Manage projects with Repositories
+Clone project to work on local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of project
+Pull latest version of project to local copy
+Push local updates to main project
+
+#########################################################################################################
+Working with Git
+Initialize Git on folder, making it Repository
+*Git now creates hidden folder to keep track of changes in that folder
+*When file is changed, added or deleted, it is considered modified
+You select modified files you want to Stage
+Staged files are Committed, which prompts Git to store permanent snapshot of files
+*Git allows you to see full history of every commit.
+**You can revert back to any previous commit.
+**Git does not store separate copy of every file in every commit, but keeps
+ track of changes made in each commit!
+
+#########################################################################################################
+Why Git?
+Over 70% of developers use Git!
+Developers can work together from anywhere in world.
+Developers can see full history of project.
+Developers can revert to earlier versions of project.
+
+#########################################################################################################
+What is GitHub?
+Git is not same as GitHub.
+GitHub makes tools that use Git.
+GitHub is largest host of source code in world, and owned by Microsoft since 2018.
+
+#########################################################################################################
+###Creating folder
+
+mkdir makes new directory. 
+cd changes current working directory.
+
+
+#########################################################################################################
+Git Staging Environment
+One of core functions of Git is concepts of Staging Environment,
+ and Commit.
+
+As you are working, you may be adding, editing and removing files. 
+But whenever you hit milestone or finish part of work,
+ you should add files to Staging Environment.
+
+Staged files are files that are ready to be committed to repository
+ you are working on. You will learn more about commit shortly.
+
+For now, we are done working with index.html. So we can add it to the
+ Staging Environment:
+#########################################################################################################
+
+Git Commit
+
+Since we have finished our work, we are ready move from stage to commit
+ for our repo.
+Adding commits keep track of our progress and changes as we work. Git
+ considers each commit change point or "save point". It is point in
+ project you can go back to if you find bug, or want to make change.
+When we commit, we should always include message.
+By adding clear messages to each commit, it is easy for yourself
+ (and others) to see what has changed and when.
+
+#########################################################################################################
+Note: Short status flags are:
+***
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+***
+
+
+#########################################################################################################
+To view history of commits for repository, use "git log" command:
+
+Working with Git Branches
+In Git, branch is new/separate version of  main repository.
+
+Let's say you have large project, and you need to update  design on it.
+
+How would that work without and with Git:
+
+#########################################################################################################
+Without Git:
+Make copies of all  relevant files to avoid impacting  live version
+Start working with  design and find that code depend on code in other 
+files, that also need to be changed!
+Make copies of  dependant files as well. Making sure that every file 
+dependency references  correct file name
+EMERGENCY! There is an unrelated error somewhere else in  project that
+ needs to be fixed ASAP!
+Save all your files, make note of names of copies you were working on
+Work on  unrelated error and update  code to fix it
+Go back to  design, and finish  work there
+Copy  code or rename  files, so  updated design is on live version
+(2 weeks later, you realize that  unrelated error was not fixed in
+ new design version because you copied  files before  fix)
+With Git:
+
+#########################################################################################################
+With new branch called new-design, edit  code directly without impacting 
+ main branch
+EMERGENCY! There is an unrelated error somewhere else in  project 
+that needs to be fixed ASAP!
+Create new branch from  main project called small-error-fix
+Fix  unrelated error and merge  small-error-fix branch with  main branch
+You go back to  new-design branch, and finish  work there
+Merge  new-design branch with main (getting alerted to  small error fix
+ that you were missing)
+Branches allow you to work on different parts of project without impacting 
+ main branch.
+
+
+When  work is complete, branch can be merged with  main project.
+You can even switch between branches and work on different projects
+ without them interfering with each other.
+
+Branching in Git is very lightweight and fast!
+
+$ git branch
+hello-world-images
+* main
+
+Switched to branch 'hello-world-images'               
+$ git branch
+* hello-world-images
+  main
+
+* means we are on that branch
+
+
+#########################################################################################################
+Merge Branches
+We have the emergency fix ready, and so let's merge the master and 
+emergency-fix branches.
+
+First, we need to change to the master branch:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

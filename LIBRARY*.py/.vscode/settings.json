@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "arange",
+        "astype",
+        "chisquare",
+        "displot",
+        "dtype",
+        "frompyfunc",
+        "hstack",
+        "multinomial",
+        "narr",
+        "ndarray",
+        "ndenumerate",
+        "ndim",
+        "nditer",
+        "ndmin",
+        "newarr",
+        "occurences",
+        "pvals",
+        "searchsorted",
+        "ufuncs",
+        "zipf"
+    ]
+}
